@@ -6,7 +6,8 @@
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
-    "prepare": "husky install && dumi setup"
+    "prepare": "husky install && dumi setup",
+    "deploy": "gh-pages -d dist"
   },
   "authors": [
     "joe.zhang"
@@ -27,6 +28,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "dumi": "^2.2.13",
     "dumi-theme-antd-style": "^0.30.0",
+    "gh-pages": "^6.1.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
