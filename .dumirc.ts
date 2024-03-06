@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = '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'
+const repo = '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'
 export default defineConfig({
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
