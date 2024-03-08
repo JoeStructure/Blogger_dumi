@@ -3,7 +3,10 @@
 group:
   title: Javascript
   order: 1
+title: Evenloop
 ---
+
+# [JS] 事件循环&任务队列
 
 **首先明确 JS 是单线程**<br />**执行步骤总结**：先同步任务，再异步任务，异步任务又分微任务和宏任务，先微任务再宏任务。<br />**宏任务**：<br />setTimeout 定时器、事件绑定、ajax、回调函数、Node 中 fs 可以进行异步的 I/O 操作。<br />**微任务**：<br />Promise(async/await)=>Promise，在 Promise 中是同步任务，执行 resolve 或者 reject 回调时，此时是异步操作，先将 then/catch 等放到微任务队列，当主栈完成后，才会再去调用 resolve/reject 方法执行。
 
