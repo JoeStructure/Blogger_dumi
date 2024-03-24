@@ -2,7 +2,7 @@
 # 同时设置分组名称和顺序，order 越小越靠前，默认为 0
 group:
   title: Javascript
-  order: 3
+  order: 4
 title: 创建对象的设计模式（1-3）
 ---
 
