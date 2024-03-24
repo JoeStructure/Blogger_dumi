@@ -3,7 +3,7 @@
 group:
   title: Javascript
   order: 5
-title: 创建对象的设计模式（1-3）
+title: currying
 ---
 
 # [JS] 函数柯里化

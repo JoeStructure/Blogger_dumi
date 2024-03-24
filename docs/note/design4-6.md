@@ -3,7 +3,7 @@
 group:
   title: Javascript
   order: 4
-title: 创建对象的设计模式（1-3）
+title: 创建对象的设计模式（4-6）
 ---
 
 # [JS] 创建对象的若干种设计模式（4-6）
